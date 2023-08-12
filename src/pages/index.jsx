@@ -1,6 +1,7 @@
 import Head from 'next/head'
 
 import Hero from '@/sections/Hero'
+import About from '@/sections/About'
 
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
       </Head>
       <main>
         <Hero/>
+        <About/>
       </main>
       {/* <Footer/> */}
     </>
